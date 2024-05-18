@@ -1,10 +1,10 @@
 #!/bin/bash
-echo "sum of number"
-read number
+echo "sum of numbers from 1 to 25"
 
-
-for (( i=1;,i<=25;i++))
+sum=0
+for (( i=1;,i<=25;i++ ))
 do
-    sum= $((sum+i))	
+    sum= $(($sum+$i))	
 done
-echo $sum of number
+
+echo $sum
